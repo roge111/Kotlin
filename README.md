@@ -65,4 +65,31 @@ fun printHello(text: String) { // Название - text, тип - String
 // Ваш код
 }
 ```
+Внутри функции мы можем вызвать другие функции.
+Есть главная функция, через которую всё работает, — функция main.
+Вот примеры функций:
 
+```
+package com.example.firsproject
+
+fun main(){
+    printHello()
+}
+
+
+/*
+Напишем функцию, которая печатае текст "Hello world"
+ */
+fun printHello() {
+    print("Hello world")
+}
+
+/*
+Напишем функцию, которая возвращает переменную с текстом «Hello».
+Для возврата переменной мы используем return и в скобках после указываем возвращаемые переменные.
+ */
+fun getTextHello(): String {
+    val text: String = "Hello"
+    return  (text)
+}
+```
