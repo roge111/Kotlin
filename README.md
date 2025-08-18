@@ -891,3 +891,7 @@ Process finished with exit code 0
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcdBGYni3ZekTVyShWh-X6Q1rcKjUJSaU-M1cu87klZvSOCBqsz3mryY7-e_kcHVvachsYaPvDYpkenOrtSmvGf9lbQ3nGbUmqvxdzHpftBZXt0V9kg7Wh9UFNimoNeCOzn39kYuuSoPtp2efFPZZK2UAgK?key=mqknGvjjLu4nhLgiDuFJsA)
 
 ПРИ НАЛИЧИИ БЛОКА `finally` БЛОК `catch` НЕОБЯЗАТЕЛЕН. В таком случае мы просто не обработаем ошибку, но отчистим ресурсы в finally.
+
+# ООП (Объектно ориентированное программирование)
+
+Чтобы его изучить, перейдить на репозиторий [Kotlin-OOP](https://github.com/roge111/Kotlin-OOP).
